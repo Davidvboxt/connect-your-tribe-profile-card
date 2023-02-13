@@ -1,8 +1,53 @@
 <%- include('./partials/head') %>
 
-<article>
-  <h1>Hallo wereld!</h1>
-  <p>Alles werk! Laat dit visitekaartje in je browser aan een docent zien :D</p>
-</article>
+  <div class="container">
+    <div class="flip-card-3D-wrapper">
+      <div id="flip-card">
+        <div class="flip-card-front business-card">
+          <div class="profile">
+            <div class="profile-title">
+              <h1>
+                <%= member.name %>
+              </h1>
+              <h6>
+                <%= member.role %>
+              </h6>
+            </div>
+            <div>
+              <img src="<%= member.avatar %>" class="profile-image">
+            </div>
+          </div>
+          <div class="info">
+            <div class="info-contact d-flex">
+              <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+              </ul>
+              <ul>
+                <li>⭐⭐⭐</li>
+                <li>⭐⭐</li>
+                <li>⭐</li>
+              </ul>
+            </div>
+            <div class="info-bio">
+              Meer weten?
+              <button id="flip-card-btn-turn-to-back">Klik hier!</button>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card-back business-card">
+          <div class="info-bio">
+            <p class="informatie">
+              <%= member.bio.html %>
+            </p>
+          </div>
+          <button id="flip-card-btn-turn-to-front">
+            Terug
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<%- include('./partials/foot') %>
+  <%- include('./partials/foot') %>
