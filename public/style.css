@@ -21,12 +21,20 @@
   padding: 15px;
   background-color: #DC143C;
   color: white;
+  justify-content: center;
+}
+
+.business-card .profile .images {
+  position: relative;
+  height: 135px;
+  justify-content: center;
 }
 
 .business-card .profile .profile-image {
   background-position: center;
   background-size: cover;
   width: 120px;
+  position: absolute;
   border: 1px solid black;
 }
 
@@ -144,4 +152,39 @@ margin-left: 37px;
 
 .informatie{
   padding: 30px;
+}
+
+/* ANIMATION */
+.one{
+  animation: ani1 30s infinite;
+}
+
+.two{
+  animation: ani2 30s infinite;
+}
+
+@keyframes ani1{
+  0%{
+      opacity: 0;
+  }
+  10%{
+
+      opacity: 1;
+  }
+  20%{
+      opacity: 0;
+  }
+}
+
+@keyframes ani2{
+  20%{
+      opacity: 0;
+  }
+  30%{
+
+      opacity: 1;
+  }
+  40%{
+      opacity: 0;
+  }
 }
