@@ -1,5 +1,9 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
+
+![eindresultaat](https://user-images.githubusercontent.com/112856021/219123786-8adf88f2-03bb-4073-b6eb-e1d3fb3b4fee.png)
+
+
 # My tribe profile card
 
 In deze opdracht was het de bedoeling om een eerder gemaakt visitekaartje uit week 1 opieuw te ontwerpen en bouwen. Ook heb ik voor het eerst met Node gewerkt in deze opdracht.
